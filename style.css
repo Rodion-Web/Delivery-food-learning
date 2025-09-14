@@ -41,10 +41,26 @@ body {
     justify-content: space-between;
 }
 
-.container {
-    height: 100%;
-    max-width: 1230px;
-    margin: 0 auto;
-    padding-left: 15px;
-    padding-right: 15px;
+.banner {}
+
+.banner-item {
+    background-image: url(./images/banners/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding: 60px 80px;
+    border-radius: 10px;
+}
+
+.banner-item--title {
+    color: #302c34;
+
+    font-size: 39px;
+
+    font-weight: 700;
+}
+
+.banner-item--subtitle {
+    color: #302c34;
+    font-size: 24px;
+    font-weight: 400;
 }
